@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>DarkMode Switch</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="container-text">
+            <h1>LIGHT UP</h1>
+        </div>
+
+        <div class="lampuMati">
+            <img src="source/off.gif" alt="lampu" id="lampu" />
+        </div>
+
+        <div class="tombol">
+            <label for="toggle" class="switch">
+                <input type="checkbox" id="toggle" onchange="mode()" />
+                <span class="slider round"></span>
+            </label>
+        </div>
+    </div>
+
+    <script src="script.js" type="application/javascript"></script>
+
+</body>
+
+</html>
